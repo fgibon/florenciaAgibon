@@ -1,0 +1,134 @@
+body {
+  font-family: "Playwrite CL", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+header{
+    /* background: linear-gradient(to bottom, blue, white); */
+    background: linear-gradient(45deg, white 0%,#ba2737 50%,#d24b5a 50%,#f18e99 100%);
+}
+main{
+    background: linear-gradient(to right, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #f6f2f1;
+}
+.presentacion{
+    text-align: center;
+    background-color: #eeeee4;
+}
+.presentacion img{
+    width:150px; 
+    height:200px;
+    border-radius: 30%;
+    border:3px solid black; 
+}
+
+.linked{
+    width: 200px;
+    height: 150;
+    padding: 20px;
+    border:3px solid black; 
+    border-radius: 10%;
+    text-align: center;
+    background-color: #e8e8dee4;
+}
+.linked p{
+    text-align: justify;
+    background-color: #e8e8dee4;
+}
+
+h2{
+    border:3px solid black; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: #b9b9b9;
+    text-align: center;
+}
+
+h3{
+    box-shadow: 10px 10px 5px #c99090; /*izquierda, abajo  */
+    width: 700px;
+    padding: 5px;
+    border: outset black; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: #edfaf0;
+    text-align: center;
+}
+
+h4{
+    width: 700px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bbbbbb;
+    text-align: justify;
+}
+
+.listado_navegacion{
+    width: 200px;
+    height: 150;
+    padding: 20px;
+    border:3px solid black; 
+    /* border-radius: 10%; */
+    border-radius: 5% 30% 5% 10%;
+    text-align: center;
+    background-color: #e8e8de;
+}
+
+.trabajo{
+text-align: -webkit-center;
+}
+
+.trabajo ol{
+    text-align: initial;
+}
+
+.li-estudios{
+    text-align: -webkit-center;
+}
+
+.li-estudios ol{
+    text-align: initial;
+}
+
+.formulario{
+    text-align: center;
+    background-color: #e8e8dee4;
+    width: 200px;
+    height: 150;
+    padding: 20px;
+    border:3px solid black; 
+    border-radius: 10%;
+}
+
+.formulario legend{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.contenido-formulario{
+    padding-top: 20px;
+}
+
+.acercaDeMi p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c0bcbc;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 30px;
+}
