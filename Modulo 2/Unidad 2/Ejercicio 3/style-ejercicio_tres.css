@@ -1,0 +1,26 @@
+.contenedor {
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.item_uno {
+    background-color: red;
+}
+
+.item_dos {
+    background-color: blue;
+}
+
+.item_tres {
+    background-color: green;
+}
